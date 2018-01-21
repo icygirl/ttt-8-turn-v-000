@@ -1,6 +1,6 @@
 def turn(board)
   stop = 0
-  while stop = 0
+  loop do
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
@@ -12,6 +12,7 @@ def turn(board)
   if stop = 1
     move(board,index,value = "X")
   end
+end
   display_board(board)
 end
 
