@@ -11,6 +11,7 @@ def turn(board)
     end
     if stop = 1
       move(board,index,value = "X")
+      break
     end
   end
   display_board(board)
