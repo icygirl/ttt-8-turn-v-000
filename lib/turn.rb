@@ -1,17 +1,17 @@
 def turn(board)
-  stop = 0
-  loop do
+  count = 0
+  while count < 1
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
     if index == valid_move?(board,index)
-      stop += 1
+      true
     else
       false
     end
-    if stop = 1
+    if true
       move(board,index,value = "X")
-      break
+      count +=1
     end
   end
   display_board(board)
