@@ -7,11 +7,10 @@ def turn(board)
   else
     false
   end
-  until true
-    puts "Please enter 1-9:"
-  else
+  if true
     move(board,index,value = "X")
   end
+  display_board(board)
 end
 
 def display_board(board)
