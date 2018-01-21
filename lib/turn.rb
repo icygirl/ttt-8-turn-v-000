@@ -12,6 +12,8 @@ def turn(board)
     if true
       move(board,index,value = "X")
       count += 1
+    else
+      count = 0
     end
   end
   display_board(board)
