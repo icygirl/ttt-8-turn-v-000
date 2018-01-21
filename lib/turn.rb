@@ -7,13 +7,11 @@ def turn(board)
     if index == valid_move?(board,index)
       true
     else
-      false
+      count = 0
     end
     if true
       move(board,index,value = "X")
       count += 1
-    else
-      count = 0
     end
   end
   display_board(board)
