@@ -1,6 +1,6 @@
 def turn(board)
   count = 0
-  while count < 1
+  while count == 1
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
